@@ -1,0 +1,30 @@
+h2{
+  background-color: #fff3c9;
+  color: #144a11;
+  text-align: center;
+  padding: 2%;
+  margin: auto;
+}
+h2:hover{
+color: #020557;
+}
+.container-fluid{
+background-color: #144a11;
+text-align: center;
+padding: 1%;
+}
+a{
+color: #fff3c9;
+}
+a:hover{
+  color:#020557;
+}
+.centersite{
+  max-width: 75%;
+  margin: auto;
+}
+#tree_picture{
+  display: block;
+  width: 75%;
+  margin: auto;
+}
