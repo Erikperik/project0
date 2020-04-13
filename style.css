@@ -6,25 +6,47 @@ h2{
   margin: auto;
 }
 h2:hover{
-color: #020557;
+  color: #020557;
 }
 .container-fluid{
-background-color: #144a11;
-text-align: center;
-padding: 1%;
+  background-color: #144a11;
+  text-align: center;
+  padding: 1%;
 }
 a{
-color: #fff3c9;
+  color: #fff3c9;
 }
 a:hover{
   color:#020557;
 }
-.centersite{
-  max-width: 75%;
-  margin: auto;
+@media (min-width: 1000px){
+  .centersite{
+    max-width: 75%;
+    margin: auto;
+  }
 }
+/* Trees */
+ol > ul{
+  font-style: italic;
+}
+
 #tree_picture{
   display: block;
   width: 75%;
   margin: auto;
+}
+/* Soil */
+table {
+  border: 1px solid gray;
+  text-align: center;
+}
+
+tr,th,td{
+  border: 1px solid gray;
+}
+
+th,.leftmostcell{
+  background: #fff3c9;
+  color: #144a11;
+  font-weight: bold;
 }
