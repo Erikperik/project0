@@ -20,7 +20,7 @@ a{
 a:hover{
   color:#020557;
 }
-@media (min-width: 2000px){
+@media (min-width: 10000px){
   .centersite{
     max-width: 75%;
     margin: auto;
