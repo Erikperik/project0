@@ -1,4 +1,4 @@
-
+/* Header */
 h2{
   background-color: #fff3c9;
   color: #144a11;
@@ -9,18 +9,24 @@ h2{
 h2:hover{
   color: #020557;
 }
+/* Navigation */
 .container-fluid{
   background-color: #144a11;
   text-align: center;
   padding: 1%;
 }
-a{
+.link{
   color: #fff3c9;
 }
-a:hover{
-  color:#020557;
+.linkgreen{
+  color: #144a11;
 }
-@media (min-width: 10000px){
+
+.link:hover{
+  color: #020557;
+}
+/* Media (small screen exception) */
+@media (min-width: 1100px){
   .centersite{
     max-width: 75%;
     margin: auto;
@@ -30,7 +36,6 @@ a:hover{
 ol > ul{
   font-style: italic;
 }
-
 #tree_picture{
   display: block;
   width: 75%;
@@ -41,13 +46,17 @@ table {
   border: 1px solid gray;
   text-align: center;
 }
-
 tr,th,td{
   border: 1px solid gray;
 }
-
 th,.leftmostcell{
   background: #fff3c9;
   color: #144a11;
   font-weight: bold;
+}
+
+/* Plants */
+div[role=alert]{
+  width: 75%;
+  margin: auto;
 }

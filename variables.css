@@ -1,0 +1,31 @@
+#first_page_div {
+  font-size: 20px;
+}
+#first_page_div #first_text {
+  color: #144a11;
+  font-weight: bold;
+}
+#first_page_div #more_text {
+  color: gray;
+  font-style: italic;
+}
+
+.go_to_soil, .go_to_trees {
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  margin-right: 30%;
+  margin-left: 30%;
+}
+
+.go_to_trees {
+  border: 2px dotted #144a11;
+  background-color: #fff3c9;
+}
+
+.go_to_soil {
+  border: 2px dotted #fff3c9;
+  background-color: #144a11;
+}
+
+/*# sourceMappingURL=variables.css.map */

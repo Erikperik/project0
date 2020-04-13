@@ -1,0 +1,35 @@
+/* variables */
+$color1: #144a11;
+$color2: gray;
+
+/* nesting */
+#first_page_div{
+  font-size: 20px;
+  #first_text{
+    color: $color1;
+    font-weight: bold;
+  }
+  #more_text{
+    color: $color2;
+    font-style: italic;
+  }
+}
+
+/* inheritance */
+%message {
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  margin-right: 30%;
+  margin-left: 30%
+}
+.go_to_trees{
+  @extend %message;
+  border: 2px dotted #144a11;
+  background-color: #fff3c9;
+}
+.go_to_soil{
+  @extend %message;
+  border: 2px dotted #fff3c9;
+  background-color: #144a11;
+}
